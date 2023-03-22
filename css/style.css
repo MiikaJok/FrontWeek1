@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+main {
+    margin: 30px 30px;
+}
+.card {
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: coral;
+    border-radius: 10px;
+}
+.card2 {
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card-img {
+    box-shadow: 0 15px 15px 0 black, 0 15px 15px 0 black;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.box {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 20px;
+    float: left;
+}
+header {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.list {
+    width: 40%;
+    margin: auto;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+img {
+    width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    width: 320px;
+    height: 120px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+}
+#input {
+    background-color: whitesmoke;
+    color: black;
+    width: 140px;
+    height: 120px;
+    text-align: center;
+}
+
+.button {
+    background-color: whitesmoke;
+    color: black;
+    height: 50px;
+    width: 140px;
+    border-radius: 15px;
+}
+#left { background-color: whitesmoke;}
+#right { background-color: darkgrey;}
+#blue { background-color: blue;}
